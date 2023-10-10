@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+  </head>
+  <style>* {
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  body {
+    text-align: start;
+    color: white;
+    background-color: black;
+  }
+  
+  /* Navigation ----------------- */
+  .maintop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 60px;
+    background-color:#c4c2b1;
+  }
+  nav {
+    width: 40%;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-evenly;
+  }
+  a.link {
+    margin-top: 5px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .content {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    align-items: center;
+    background-image: url('port1.jpg');
+  }
+  .describe {
+    width: 57%;
+  }
+  h1.one {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  p {
+    text-align: justify;
+  }
+  .img-container {
+    width: 30%;
+    height: 320px;
+    border-radius: 50%;
+    overflow: hidden; /* Add this to ensure the image is not cut off */
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* This ensures the entire image is visible and covers the circular container */
+}
+
+  .main {
+    width: 160px;
+    background-color: #9794d1;
+    padding: 5px;
+    border: none;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .main a {
+    text-decoration: none;
+    color: white;
+  }
+  .main:hover {
+    box-shadow: 4px 4px 8px #4b556b;
+  }
+  .subhead {
+    margin-top: 1cm;
+    text-align: center;
+    padding: none;
+    height: 2cm;
+  }
+  
+  /*------------Sub Content-------------- */
+  .subcontent {
+    margin-left: 40px;
+    margin-right: 30px;
+    width: 1200px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  div.box {
+
+    border-radius: 8px;
+  
+    width:300px;
+    padding : 12px;
+    color: #4b556b;
+    background-color: black;
+  
+  }
+  
+  .card1 {
+    width: 90%;
+    height: 200px;
+    background-image:url('trip.png');
+    background-size: 100%;
+    border-radius: 8px;
+  }
+  .card2 {
+    width: 90%;
+    height: 200px;
+    background-image:url('ayuv.png');
+    background-size: 100%;
+    border-radius: 8px;
+  }
+  .card3 {
+    width: 90%;
+    height: 200px;
+    background-image: url('net.png');
+    background-size: 100%;
+    border-radius: 8px;
+  }
+  .card4 {
+    width: 90%;
+    height: 200px;
+    background-image:url('portfolio.png');
+    background-size: 100%;
+    border-radius: 8px;
+  }
+  button {
+    margin-left: 0.4cm;
+    width: 80%;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 5px;
+    border: none;
+    border-radius: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:#F6F4EB;
+  }
+ 
+  .skills {
+    background-color: #7D7C7C;
+    text-align: center;
+    font-size: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  
+  .left-block,
+  .right-block {
+    width: 45%;
+    height: 100%; /* Adjust the width as needed */
+  }
+  
+  .t-6 {
+    width: 80%;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 5px;
+    border: none;
+    border-radius: 32px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #ffffff;
+    background-size: 50%;
+    color: black;
+  }
+
+/* Add this CSS to your existing styles.css or in a separate CSS file */
+
+footer {
+    background-color: #c4c2b1;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-icons a {
+    font-size: 24px;
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+    color: white ; /* Change color on hover (e.g., to gold) */
+}
+
+
+  </style>
+  <body>
+    <div class="maintop">
+      <h1 style="color: black">My Portfolio</h1>
+
+      <nav>
+        <a href="#" class="link" , style="font-size: 30px">About me</a>
+        <a href="#" class="link" , style="font-size: 30px" >Projects</a>
+        <a href="#" class="link" , style="font-size: 30px">Skills</a>
+      </nav>
+    </div>
+
+    <div class="content">
+      <div class="img-container">
+        <img src="er.jpeg" alt="Your Image">
+      </div>
+
+      <div class="describe">
+        <h1 class="one">C Neha Sree</h1>
+        <p style="font-size: 19px">
+          Hello this is Neha sree, here is my portfolio where my ultimate goal is to become 
+          a skilled full-stack developer and contribute to innovative projects that have a
+          spositive impact on people's lives. I'm excited to continue learning and exploring
+          emerging technologies in the field of web development
+        </p>
+       
+      </div>
+
+    </div>
+    <h1 class="subhead">Projects</h1>
+    <br>
+    <div class="subcontent">
+      
+      <div class="box" >
+        <div class="card1"></div>
+        <br>
+        <h2 style="color: #f6f6f6" > TripAdviser</h2>
+        <button>Explore</button>
+      </div>
+      <div class="box">
+        <div class="card2"></div>
+        <br>
+        <h2 style="color: #f6f6f6">  Ayuv</h2>
+        <button>Explore</button>
+      </div>
+      <div class="box">
+        <div class="card3"></div>
+        <br>
+        <h2 style="color: #f6f6f6" > Netflix Homepage</h2>
+        <button>Explore</button>
+      </div>
+    <div class="box">
+      <div class="card4"></div>
+      <br>
+      <h2 style="color: #f6f6f6" > Portfolio</h2>
+      <button>Explore</button>
+    </div>
+  </div>
+
+  <h1 class="subhead" , style ="background-color: #7D7C7C">Skills</h1>
+    <div class="skills">
+     
+      <div class="left-block">
+        <button class="t-6">C Language</button>
+        <button class="t-6">Python</button>
+        <button class="t-6">Java</button>
+        
+      </div>
+      <div class="right-block">
+        <button class="t-6">HTML</button>
+        <button class="t-6">CSSlanguage</button>
+        <button class="t-6">Java Script</button>
+        
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+          <div class="contact-icons">
+              <a href="tel:your-phone-number"><i class="fas fa-phone"></i></a>
+              <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+              <a href="https://www.linkedin.com/in/your-profile"><i class="fab fa-linkedin"></i></a>
+          </div>
+
+      </div>
+  </footer>
+  
+  </body>
+</html>
